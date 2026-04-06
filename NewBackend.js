@@ -2769,7 +2769,7 @@ function generateAllSections() {
 
     const header = document.createElement("div");
     header.className = "letter-header";
-    header.textContent = char;
+    header.textContent = char;Q
     section.appendChild(header);
 
     const buttonsContainer = document.createElement("div");
@@ -2790,15 +2790,14 @@ function generateAllSections() {
           const encoded = encodeURIComponent(normalized);
 
           fetch(
-            `https://cdn.jsdelivr.net/gh/bubbls/ugs-singlefile/UGS-Files/${encoded}?t=${Date.now()}`,
+            `https://raw.githubusercontent.com/Hambo198213/UNB_23218948729378423789421378942137890234187914239784213786421367421376824137684231_API/main/UNB_FILES/${encoded}`,
           )
             .then((response) => response.text())
             .then((text) => {
-              const newWin = window.open("about:blank", "_blank");
-              if (newWin) {
-                newWin.document.open();
-                newWin.document.write(text);
-                newWin.document.close();
+              const newTab = window.open("about:blank");
+              newTab.document.open();
+              newTab.document.write(text);
+              newTab.document.close();
               }
             });
         };
