@@ -1,4 +1,3 @@
-
 // LAST GAME IS caseoh baldi
 let files = [
   "cl1",
@@ -1817,10 +1816,10 @@ let files = [
 "clpokewhite2",
 "clpokewhite2alt",
 "clpokeyellow",
-"clPok mon Emerald Rush Edition (20)",
-"clPok mon Trade&_Stache (V11)",
-"clPok mon TWO (v11)",
-"clPok monstunningsteel",
+"clPok�mon Emerald Rush Edition (20)",
+"clPok�mon Trade&_Stache (V11)",
+"clPok�mon TWO (v11)",
+"clPok�monstunningsteel",
 "clpolicepursuit2",
 "clpolishedcrystal",
 "clpolytrackbutnotflagged(1)",
@@ -2698,7 +2697,7 @@ let files = [
 "clzrist",
 "clzuma",
 "clzumashooter",
-"cl oo",
+"cl�oo",
 "cl?"
 ];
 function generateAllSections() {
