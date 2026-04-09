@@ -2791,7 +2791,7 @@ function generateAllSections() {
           const encoded = encodeURIComponent(normalized);
 
           fetch(
-            `https://raw.githubusercontent.com/Hambo198213/UNB-PANEL/main/341967812349432178087094321879123_BACKEND/${encoded}`,
+            `https://raw.githubusercontent.com/Hambo198213/UNB-PANEL/main/341967812349419820057094321879123_BACKEND/${encoded}`,
           )
             .then((response) => response.text())
             .then((text) => {
